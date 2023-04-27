@@ -1,3 +1,5 @@
+import javax.sound.sampled.SourceDataLine;
+
 class registroej1{
     public static void main(String[] args) {
         System.out.println();
@@ -54,4 +56,11 @@ public class empleadoreg() {
     {
         return ++empToken;
     }
+}
+
+public class registro2{
+    public static void main(String[] args) {
+        System.out.println("hola");
+    }
+    
 }
