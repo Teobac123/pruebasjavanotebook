@@ -3,8 +3,17 @@ package empleados;
 public class Empleados {
     public static void main(String[] args) {
         Datosempleado e=new Datosempleado();
+        e.establece_PrimerNombre("Mich");
+        System.out.println(e.dame_PrimerNombre());
         e.establece_PrimerNombre("Mateo");
-
+        System.out.println(e.dame_PrimerNombre());
+        e.establece_PrimerNombre("La telen");
+        System.out.println(e.dame_PrimerNombre());
+        e.establece_PrimerNombre("Aldana");
+        System.out.println(e.dame_PrimerNombre());
+        e.establece_PrimerNombre("Diego");
+        System.out.println(e.dame_PrimerNombre());
+        e.establece_PrimerNombre("Mati");
         System.out.println(e.dame_PrimerNombre());
     }  
 }
