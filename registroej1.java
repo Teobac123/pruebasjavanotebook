@@ -1,3 +1,5 @@
+import javax.sound.sampled.SourceDataLine;
+
 class registroej1{
     public static void main(String[] args) {
         registroej1prueba e=new registroej1prueba(1, "Mateo");
